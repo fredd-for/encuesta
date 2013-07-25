@@ -1,0 +1,4 @@
+AddCharset UTF-8 .php
+RewriteEngine Off
+Options -Indexes
+Options -ExecCGI

@@ -1,0 +1,10 @@
+ErrorDocument 404 "http://www.produccion.gob.bo/encuesta/"
+ErrorDocument 500 "<html><head><title>Error 500</title></head><body>Error del sistema 500</body></html>" 
+RewriteEngine On
+Options FollowSymlinks -Indexes
+
+RewriteRule ^404/$ http://www.produccion.gob.bo/encuesta/ [L]
+
+<Files ".ht*">
+deny from all
+</Files>
