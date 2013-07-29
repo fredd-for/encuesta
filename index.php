@@ -7,7 +7,7 @@
     <meta name="copyright" content="Derechos reservados a nombre de MINISTERIO" />
     <meta name="category" content="General" />
     <meta name="rating" content="General" />
-    <title>Ministerio</title>
+    <title>MDPyEP-Encuesta</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <link href="css/layout.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="js/jquery.min.js"></script>

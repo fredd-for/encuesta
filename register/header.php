@@ -7,7 +7,7 @@
     <meta name="category" content="General" />
     <meta name="rating" content="General" />
     
-    <title>Registro</title>
+    <title>MDPyEP-Encuesta</title>
     <meta name="description" content="Registro" />
     <meta name="keywords" content="Inicio" />
     <link href="../css/layout.css" rel="stylesheet" type="text/css" />  

@@ -128,15 +128,7 @@ $(document).ready( function() {
         var percent1 = $("#percent1").text();
         percent1 =  formatinteger( percent1 );
         
-        /*
-        if( val1 > 0 ) {
-            if( percent1 < 100 ) {
-                $("#msg").show();
-                return false;
-            }
-        }
-        */
-        
+       
         if( val1 > 0 ) {
             if( percent1 == 100 ) {
                 sw = true;
@@ -158,16 +150,7 @@ $(document).ready( function() {
         var percent2 = $("#percent2").text();
         percent2 =  formatinteger( percent2 );
         
-        
-        /*
-        if( val2 > 0 ) {
-            if( percent2 < 100 ) {
-                $("#msg").show();
-                return false;
-            }
-        }
-        */
-       
+     
         if( val2 > 0 ) {
             if( percent2 == 100 ) {
                 sw = true;
@@ -186,13 +169,13 @@ $(document).ready( function() {
             }
         }
         
-        var total = formatinteger($("#total").text());
-        if( total > 0 ) {            
-            return true;
-        } else {
-            $("#msg2").show();
-            return false;
-        }
+        // var total = formatinteger($("#total").text());
+        // if( total > 0 ) {            
+        //     return true;
+        // } else {
+        //     $("#msg2").show();
+        //     return false;
+        // }
         
         
         
