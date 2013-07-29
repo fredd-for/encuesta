@@ -141,7 +141,7 @@ $aBoleta = $db->next_record();
 <p class="small">..................................</p>
 
 
-<form class="formA" action="cofirmrecord.php" method="post" style="text-align: center;">
+<form class="formA" action="cofirmrecord.php" method="post" style="text-align: center;" onSubmit="if(!confirm('Esta seguro de finalizar la encuesta?.\nLuego de aceptar no podra modificar ningun campo mas.')){return false;}">
 <fieldset>
     <p>
         Concluido de mi parte el llenado del cuestionario de la presente encuesta, me ratifico en todo su contenido. 

@@ -186,7 +186,7 @@ $aInfoGen = $db->next_record();
             <p>
                 <span class="subT">9. Fax:</span>
                 <span class="clear"></span>                  
-                <input type="text" name="ai_fax" id="ai_fax" onblur="javascript:saveUPD(3); return false;" value="<?php echo $aInfoGen["inge_fax"] ?>" size="40" class="inpC integer">
+                <input type="text" name="ai_fax" id="ai_fax" onblur="javascript:saveUPD(3); return false;" value="<?php if(is_numeric($aInfoGen["inge_fax"])) {echo $aInfoGen["inge_fax"]; } else { echo "";}  ?>" size="40" class="inpC integer">
                 <span id="div_ai_fax" class="bxEr" style="display:none" >requerido</span>
                 <span id="div_ai_fax_2" class="bxEr" style="display:none" >inválido</span>
             </p>

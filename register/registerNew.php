@@ -14,20 +14,20 @@ include("header.php");
             <fieldset>
                 <p>                
                     <label>N&ordm; de matr&iacute;cula:</label>
-                    <input type="text" name="matricula" id="matricula" size="40" class="inpA required"> 
+                    <input type="text" name="matricula" id="matricula" size="40" class="inpA required" title='Ingrese número de matricula (sin ceros por delante). Ej: 1452'> 
                     <span id="div_matricula" class="bxEr2" style="display: none;">campo requerido</span>
                 </p>
 
                 <p>
                     <label>Correo electr&oacute;nico:</label>
-                    <input type="text" name="email" id="email" size="40" class="inpA required email">
+                    <input type="text" name="email" id="email" size="40" class="inpA required email" title='Ingrese correo electronico vigente'>
                     <span id="div_email" class="bxEr2" style="display: none;">campo requerido</span>
                     <span id="div_email_2" class="bxEr2" style="display: none;">correo invalido</span>
                 </p>
 
                 <p>
                     <label>Contrase&ntilde;a:</label>
-                    <input type="password" name="passwd" id="passwd" size="40" class="inpA required alphanum">
+                    <input type="password" name="passwd" id="passwd" size="40" class="inpA required alphanum" title='Ingrese una contraseña personal '>
                     <span id="div_passwd" class="bxEr2" style="display: none;">campo requerido</span>
                 </p>
 

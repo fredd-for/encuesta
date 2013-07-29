@@ -105,7 +105,7 @@ if( $db->numrows() == 0 ) {
     <form class="formA validable" action="bcap2Add.php" method="post" autocomplete="off" >
       <fieldset>
           <p>       
-                <span class="subT">1. ¿La empresa tiene actualmente un Sistema de Gestión Certificado?</span>
+                <span class="subT">1. &iquest;La empresa tiene actualmente un Sistema de Gesti&oacute;n Certificado?</span>
                 <span class="clear"></span>
                 
                 <input class="chk" type="radio" name="rbtn_inversion" id="rbtn_inversion1" value="1" <?php if( $d_valor == 1 ) { echo "checked=\"checked\""; } ?> />            

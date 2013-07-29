@@ -155,6 +155,22 @@ filter: alpha(opacity=70);
 opacity: 0.70;
 }
 
+.bxTitIn{
+float: left;
+font-size: 27px;
+text-transform: uppercase;
+text-align: left;
+line-height: 80px;
+width: 500px;
+margin: 10px 0 0 30px;
+}
+.bxTitIn span{
+font-size: 20px;
+line-height: 30px;
+}
+
+
+
 .bxTit{
 float: left;
 font-size: 27px;
