@@ -212,13 +212,15 @@ $(document).ready( function() {
         
         tot = tot1 + tot2 + apoyo1 + apoyo2;
         
-        if( tot > 0 ) {
-            sw = true;
-            $("#msg").hide();
-        } else {
-            $("#msg").show();
-            return false;
-        }
+        // modificado por freddy
+        
+         if( tot > 0 ) {
+             sw = true;
+             $("#msg").hide();
+         } else {
+             $("#msg").show();
+             return false;
+         }
         
         // correspondencia persona - salario
         
@@ -288,85 +290,85 @@ $(document).ready( function() {
             }
         }
         
-        // correspondencia salario - persona
-        c1 = formatinteger( $("#C1").val() );        
-        if( c1 > 0 ){
-            a1 = formatinteger( $("#A1").val() );
-            b1 = formatinteger( $("#B1").val() );
-            ab1 = a1 + b1;            
-            if( ab1 == 0 ){
-                $("#msg4").show();
-                return false;
-            } else {
-                sw7 = true;
-            }
-        }
+        // // correspondencia salario - persona
+        // c1 = formatinteger( $("#C1").val() );        
+        // if( c1 > 0 ){
+        //     a1 = formatinteger( $("#A1").val() );
+        //     b1 = formatinteger( $("#B1").val() );
+        //     ab1 = a1 + b1;            
+        //     if( ab1 == 0 ){
+        //         $("#msg4").show();
+        //         return false;
+        //     } else {
+        //         sw7 = true;
+        //     }
+        // }
         
-        c1 = formatinteger( $("#C2").val() );        
-        if( c1 > 0 ){
-            a1 = formatinteger( $("#A2").val() );
-            b1 = formatinteger( $("#B2").val() );
-            ab1 = a1 + b1;            
-            if( ab1 == 0 ){
-                $("#msg4").show();
-                return false;
-            } else {
-                sw8 = true;
-            }
-        }
+        // c1 = formatinteger( $("#C2").val() );        
+        // if( c1 > 0 ){
+        //     a1 = formatinteger( $("#A2").val() );
+        //     b1 = formatinteger( $("#B2").val() );
+        //     ab1 = a1 + b1;            
+        //     if( ab1 == 0 ){
+        //         $("#msg4").show();
+        //         return false;
+        //     } else {
+        //         sw8 = true;
+        //     }
+        // }
         
-        c1 = formatinteger( $("#C3").val() );        
-        if( c1 > 0 ){
-            a1 = formatinteger( $("#A3").val() );
-            b1 = formatinteger( $("#B3").val() );
-            ab1 = a1 + b1;            
-            if( ab1 == 0 ){
-                $("#msg4").show();
-                return false;
-            } else {
-                sw9 = true;
-            }
-        }
+        // c1 = formatinteger( $("#C3").val() );        
+        // if( c1 > 0 ){
+        //     a1 = formatinteger( $("#A3").val() );
+        //     b1 = formatinteger( $("#B3").val() );
+        //     ab1 = a1 + b1;            
+        //     if( ab1 == 0 ){
+        //         $("#msg4").show();
+        //         return false;
+        //     } else {
+        //         sw9 = true;
+        //     }
+        // }
         
-        c1 = formatinteger( $("#C4").val() );        
-        if( c1 > 0 ){
-            a1 = formatinteger( $("#A4").val() );
-            b1 = formatinteger( $("#B4").val() );
-            ab1 = a1 + b1;            
-            if( ab1 == 0 ){
-                $("#msg4").show();
-                return false;
-            } else {
-                sw10 = true;
-            }
-        }
+        // c1 = formatinteger( $("#C4").val() );        
+        // if( c1 > 0 ){
+        //     a1 = formatinteger( $("#A4").val() );
+        //     b1 = formatinteger( $("#B4").val() );
+        //     ab1 = a1 + b1;            
+        //     if( ab1 == 0 ){
+        //         $("#msg4").show();
+        //         return false;
+        //     } else {
+        //         sw10 = true;
+        //     }
+        // }
         
-        c1 = formatinteger( $("#C5").val() );        
-        if( c1 > 0 ){
-            a1 = formatinteger( $("#A5").val() );
-            b1 = formatinteger( $("#B5").val() );
-            ab1 = a1 + b1;            
-            if( ab1 == 0 ){
-                $("#msg4").show();
-                return false;
-            } else {
-                sw11 = true;
-            }
-        }
+        // c1 = formatinteger( $("#C5").val() );        
+        // if( c1 > 0 ){
+        //     a1 = formatinteger( $("#A5").val() );
+        //     b1 = formatinteger( $("#B5").val() );
+        //     ab1 = a1 + b1;            
+        //     if( ab1 == 0 ){
+        //         $("#msg4").show();
+        //         return false;
+        //     } else {
+        //         sw11 = true;
+        //     }
+        // }
                 
-        var totparcial = tot1 + tot2;
-        if( totparcial == 0 ) {
-            $("#msg4").show();
-            return false;
-        }
+        // var totparcial = tot1 + tot2;
+        // if( totparcial == 0 ) {
+        //     $("#msg4").show();
+        //     return false;
+        // }
                 
         tot1 = formatinteger( $("#A6").val() );
         tot2 = formatinteger( $("#B6").val() );
         var totgen = tot1 + tot2;
-        if( totgen == 0 ) {
-            $("#msg5").show();
-            return false;
-        }
+        // if( totgen == 0 ) {
+        //     $("#msg5").show();
+        //     return false;
+        // }
         
         
     });

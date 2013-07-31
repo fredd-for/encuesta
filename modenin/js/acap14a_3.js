@@ -36,7 +36,8 @@ $(document).ready( function() {
     $("#sendData").click( function(){       
         var tot = formatinteger( $("#totTK").text() );
         var Tt = formatinteger( $("#Tt").text() );
-        if( tot != Tt ) {
+        //if( tot != Tt ) {
+        if( tot == 0 ) {    
             $("#msg3").show();
             return false;
         }        

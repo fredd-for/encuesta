@@ -170,13 +170,14 @@ $uidFormulario = $_SESSION[SITE]["uidtipoformulario"];
             <p>
                 <span id="msg" style="display: none;" class="bxEr" >Debe introducir movimiento para invetarios</span>
                 <span id="msg2" style="display: none;" class="bxEr"  >Debe introducir el detalle para otros inventarios</span>
-                <span id="msg3" style="display: none;" class="bxEr"  >El valor total de la columna de "inventario final" debe ser igual a Bs. <span id="Tt"><?php echo number_format($aTotCap5["mapi_valor"]);  ?></span></span>
+                <!-- <span id="msg3" style="display: none;" class="bxEr"  >El valor total de la columna de "inventario final" debe ser igual a Bs. <span id="Tt"><?php // echo number_format($aTotCap5["mapi_valor"]);  ?></span></span> -->
+                <span id="msg3" style="display: none;" class="bxEr"  >El valor total de la columna de "inventario final" debe ser mayor a cero</span>
             </p>
                         
-            <p>
-                El <b>valor</b> total de la columna de "inventario final" debe ser igual a Bs. <b><?php echo number_format($aTotCap5["mapi_valor"]);  ?></b> 
+           <!--  <p>
+                El <b>valor</b> total de la columna de "inventario final" debe ser igual a Bs. <b><?php // echo number_format($aTotCap5["mapi_valor"]);  ?></b> 
                 que corresponde al total de Compra de materias primas, materiales auxiliares, envases y embalajes, fabricados en el pa&iacute;s.
-            </p>
+            </p> -->
             <p><?php echo OPERATOR::getDescTitles(2,'A',14,1); ?></p>
             <span class="bxBt">
             <input type="submit" value="SIGUIENTE" id="sendData" name="continuarregistro" class="button" >
